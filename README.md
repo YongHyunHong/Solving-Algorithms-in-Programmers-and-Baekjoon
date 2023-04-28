@@ -1,1 +1,1 @@
-# Solving-Algorithms-in-Programmers-and-Baekjoon
+# Solving Algorithms in Programmers and Baekjoon
