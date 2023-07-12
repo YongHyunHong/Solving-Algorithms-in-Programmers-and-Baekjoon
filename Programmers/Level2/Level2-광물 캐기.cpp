@@ -4,7 +4,7 @@
 
 using namespace std;
 int answer = 987654321;
-int count[4]; // 1은 다이아, 2는 철, 3은 돌
+int counting[4]; // 1은 다이아, 2는 철, 3은 돌
 int totalCount;
 int selects[11];
 vector<string> v;
@@ -70,12 +70,12 @@ void dfs(int index)
     
     for(int i=1; i<=3; i++)
     {
-        if(count[i] != 0)
+        if(counting[i] != 0)
         {
-            count[i]--;
+            counting[i]--;
             selects[index] = i;
             dfs(index+1);
-            count[i]++;
+            counting[i]++;
         }
     }
 }
@@ -86,7 +86,7 @@ int solution(vector<int> picks, vector<string> minerals) {
     
     for(int i=0; i<picks.size(); i++)
     {
-        count[i + 1] = picks[i];
+        counting[i + 1] = picks[i];
         totalCount+=picks[i];
     }
     

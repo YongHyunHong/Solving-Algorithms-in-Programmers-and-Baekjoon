@@ -2,6 +2,7 @@
     "files.associations": {
         "cstdlib": "cpp",
         "queue": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "xutility": "cpp"
     }
 }
