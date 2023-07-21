@@ -3,6 +3,7 @@
         "cstdlib": "cpp",
         "queue": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "vector": "cpp"
     }
 }
