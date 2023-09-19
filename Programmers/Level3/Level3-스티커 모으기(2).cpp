@@ -16,7 +16,7 @@ int solution(vector<int> sticker)
     else if(sticker.size() == 2)
         return max(sticker[0], sticker[1]);
     else if(sticker.size() == 3)
-        return max(sticker[2] + sticker[0], sticker[1]);
+        return max(sticker[0], max(sticker[1], sticker[2]));
     
     
     
